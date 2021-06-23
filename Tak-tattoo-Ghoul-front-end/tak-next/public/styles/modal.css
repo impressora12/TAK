@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* modal-post */
+
+.modal-post-container{
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0,0,0,.5);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-modal{
+  background: #ffff;
+  width: 594px;
+  height: 489px;
+  padding: 8px;
+  border: none;
+  border-radius: 12px;
+  position: relative;
+}
+
+.post-img img{
+  width: 100%;
+  height: 473px;
+  max-width: 272px;
+  background-color: #000;
+  display: flex;
+  border-radius: 12px;
+  box-shadow: 0 4px 4px 0 rgb(0,0,0, .2);
+}
+
+.img-perfil img{
+  width: 80px;
+  height: 80px;
+  max-width: 272px;
+  position: absolute;
+  top: 28px;
+  left: 302px;
+  background-color: #000;
+  border-radius: 50%;
+  box-shadow: 0 4px 4px 0 rgb(0,0,0, .5);
+}
+
+.profile-name{
+  width: 185px;
+  height: 35px;
+  position: absolute;
+  top: 48px;
+  left: 398px;
+  font-family: "Pattaya";
+  font-size: 30px;
+  color: #000;
+}
+
+.post-title{
+  position: absolute;
+  top: 126px;
+  left: 302px;
+  font-size: 27px;
+  font-family: 'Bitter', serif;
+}
+
+.post-describe{
+  width: 258px;
+  position: absolute;
+  top: 170px;
+  left: 302px;
+  font-family: 'Bitter', serif;
+  font-size: 16px;
+}
+
+.close-post{
+  position: absolute;
+  right: 21px;
+  top: -20px;
+  width: 38px;
+  height: 38px;
+  border: 2.5px solid white;
+  border-radius: 50%;
+  background: #ff0048;
+  color: #ffff;
+  font-family: "Indie Flower", regular;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgb(0,0,0, .2);
+}
+
+/* modal-profile */
+
+.modal-profile-container {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0,0,0,.5);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-modal{
+  background: #ffff;
+  width: 462px;
+  height: 680px;
+  border: none;
+  border-radius: 12px;
+  position: relative; 
+}
+
+.close-profile{
+  position: absolute;
+  right: 21px;
+  top: -20px;
+  width: 38px;
+  height: 38px;
+  border: 2.5px solid white;
+  border-radius: 50%;
+  background: #ff0048;
+  color: #ffff;
+  font-family: "Indie Flower", regular;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgb(0,0,0, .2);
+}
+
+.profile-photo{
+  width: 80px;
+  height: 80px;
+  max-width: 272px;
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -6%);
+  background-color: #000;
+  border-radius: 50%;
+  box-shadow: 0 4px 4px 0 rgb(0,0,0, .5);
+}
+
+.profi-name {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  font-family: "Pattaya";
+  font-size: 30px;
+  color: #000;
+}
+
+/* profile info */
+
+.info-profile {
+  font-size: 14.5px;
+  font-family: 'Bitter';
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  transform: translate(-15%, -30%);
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.data-p {
+  padding-left: 7px;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
